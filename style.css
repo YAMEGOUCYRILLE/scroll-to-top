@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#one{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-1{
+    width: 90%;
+    color: white;
+}
+#two{
+    height: 100vh;
+    width: 100%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-2{
+    width: 90%;
+    color: white;
+}
+#three{
+    height: 100vh;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-3{
+    width: 90%;
+    color: white;
+}
+.scroll-to-top{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0.8);
+    transition: 0.3s ease-in-out transform;
+}
+.arrow{
+    width: 50%;
+    height: 100%;
+    color: crimson;
+    pointer-events: none;
+}
+.scroll-to-top:hover{
+    transform: scale(1);
+    background-color: rgb(3, 74, 83);
+}
